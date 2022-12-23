@@ -1,0 +1,25 @@
+.videoTag {
+  position: absolute;
+  width: 74%;
+  overflow: hidden;
+  z-index: -10;
+  justify-content: center;
+  left: 0;
+  right: 0;
+  top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10rem;
+}
+
+.fireboi {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 69%;
+  margin-top: 26rem;
+  z-index: 30;
+}

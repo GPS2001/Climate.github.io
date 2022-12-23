@@ -1,0 +1,40 @@
+.rain {
+  height: 100vh;
+  background: url(https://i.postimg.cc/MKgprHJg/rain.png);
+  opacity: 20%;
+  animation: rain 0.3s linear infinite;
+}
+
+@keyframes rain {
+  0% {
+    background-position: 0px 0px;
+  }
+  100% {
+    background-position: 150px 400px;
+  }
+}
+
+.mypicss {
+  position: absolute;
+  display: flex;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 28rem;
+  width: 70%;
+  z-index: 300;
+}
+
+.myform {
+  position: absolute;
+  display: flex;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 26rem;
+  z-index: 500;
+}

@@ -1,0 +1,42 @@
+.videoTag {
+  position: absolute;
+  width: 74%;
+  overflow: hidden;
+  z-index: -10;
+  justify-content: center;
+  left: 0;
+  right: 0;
+  top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10rem;
+}
+
+.CO2thing {
+  position: absolute;
+  width: 70%;
+  height: 403.5px;
+  z-index: 10;
+  left: 0;
+  right: 0;
+  top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 26rem;
+  outline: 2px solid black;
+}
+
+.CO2thing2,
+.average-total-co2 {
+  position: absolute;
+  width: 70%;
+  height: 403.5px;
+  z-index: 10;
+  left: 0;
+  right: 0;
+  top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 53.6rem;
+  outline: 2px solid black;
+}
